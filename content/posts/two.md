@@ -1,7 +1,7 @@
 ---
 title: "My Second Post"
 date: 2022-11-21T09:03:20-08:00
-draft: true
+draft: false
 tags: [umba,makumba]
 
 ---
