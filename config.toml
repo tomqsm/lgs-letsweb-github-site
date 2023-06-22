@@ -1,0 +1,10 @@
+baseURL = 'http://example.org/'
+languageCode = 'pl-pl'
+title = 'letsweb.biz'
+
+[imageProcessing]
+    enableExternal = true
+    externalCommands = ["gm"]
+
+[taxonomies]
+    tag = "tags"

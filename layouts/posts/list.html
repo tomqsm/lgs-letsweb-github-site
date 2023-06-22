@@ -1,0 +1,20 @@
+{{define "main"}}
+<div class="container">
+    <h1 class="title">{{.Title}}</h1>
+    <ul>
+    {{range .Pages}}
+    <li class="custom-gap">
+        {{ .Render "summary" }}
+    </li>
+    {{end}}
+</ul>
+    {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <div class="">
+        <a href={{ .RelPermalink }} title="All pages with tag {{$name}}">{{$name}}</a>
+        <sup>{{$cnt}}</sup>
+    </div>
+    {{end}}
+    {{end}}
+</div>
+{{end}}

@@ -1,0 +1,20 @@
+  {
+    "content": [
+      {
+        "section": "letsweb.biz",
+        "url": "/"
+      },
+      {
+        "section": "blog",
+        "url": "/posts/"
+      },
+      {
+        "section": "portfolio",
+        "url": "/portfolio/"
+      },
+      {
+        "section": "kontakt",
+        "url": "/kontakt/"
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+{{define "main"}}
+<div class="container">
+    <h1 class="title">{{.Title}}</h1>
+    <ul>
+    {{range .Pages}}
+    <li class="custom-gap">
+        {{- partial "headings-to-bulma.html" . -}}
+    </li>
+    {{end}}
+</ul>
+</div>
+{{end}}

@@ -1,0 +1,20 @@
+{{- $startText := "letsweb.biz" -}}
+
+<div class="container breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
+    <ul>
+        {{- if .IsHome }}
+        <li>{{ $startText }}</li>
+        {{- else }}
+        {{- range .Ancestors.Reverse -}}
+        {{- if (eq .Name $.Site.Title) -}}
+        <li><a href="{{ .Permalink }}">{{ $startText }}</a></li>
+        {{- else -}}
+        <li><a href="{{ .Permalink }}">{{ .Name }}</a></li>
+        {{- end -}}
+        {{- end -}}
+        <li class="is-active" aria-current="page">
+            <a href="{{ .Permalink }}">{{ .Name }}</a>
+        </li>
+        {{- end }}
+    </ul>
+</div>

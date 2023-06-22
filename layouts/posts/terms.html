@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ $baseUrl := .Site.BaseURL }}
+{{ $plural  := .Data.Plural }}
+<p>terms.md</p>
+{{ range $key, $value  := .Data.Terms }}
+<a href="{{ $baseUrl  }}/{{ $plural }}/{{ $key}}">{{ $key }}</a>
+{{ end }}
+
+{{ end }}
