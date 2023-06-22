@@ -1,19 +1,21 @@
 {{define "main"}}
 <div class="container">
-    <h1 class="title">Portfolio</h1>
-
+    <h1 class="title is-1">Portfolio</h1>
+    <h2 class="title is-2">Intro</h2>
     <div class="columns">
         <div class="column is-flex is-flex-direction-column">
-            <p style="line-height: 2;">Od lutego 2012, tworzenie  oprogramowania w oparciu o Java to moja specjalizacja.
-            Od tego czasu pracowałem w wielu projektach współtworząc oprogramowanie systemów bankowych,
-                nawigacji, integracji i synchronizacji współdziałania programów czy zarządzania użytkownikami i kontentem różnych platform.
+            <p style="line-height: 2;">Od lutego 2012, tworzenie  oprogramowania w oparciu o Java stało się moją specjalizacją.
+            Pracowałem w wielu projektach współtworząc oprogramowanie systemów bankowych,
+                nawigacji, integracji i synchronizacji współdziałania programów, zarządzania użytkownikami i kontentem różnych platform
+                oraz środowisk iteratywnych wdrożeń.
                 Poniżej przegląd tych projektów.
             </p>
         </div>
         <div class="column">
-            <img src="/images/diagram700.png"/>
+            <img src="{{ relURL "images/diagram700.png" }}"/>
         </div>
     </div>
+    <h2 class="title is-2">Projekty</h2>
     <ul>
     {{range .Pages}}
     <li class="custom-gap">

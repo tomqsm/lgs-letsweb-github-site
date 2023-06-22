@@ -1,9 +1,16 @@
-<a class="box" href="{{ .Permalink }}">
-  <h4 class="title is-4">{{ .Title }}</h4>
-  <h6 class="subtitle has-text-grey is-6">{{ .Summary }}</h6>
-  <div>
+<div class="custom-gap">
+    <p class="title is-3"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    <p class="subtitle has-text-grey is-6">{{ .Summary }}</p>
     <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
     <span class="tag is-dark">{{ .Date.Format "Jan 2, 2006" }}</span>
     <span class="tag is-warning">{{ .WordCount }} Words</span>
-  </div>
-</a>
+
+        {{ if .Params.tags }}
+        <strong>Tags:</strong>
+        {{range $t := .Params.tags}}
+        {{ with $.Site.GetPage (printf "/tags/%s" $t) }}
+        <a class="tag" href={{ .RelPermalink }} title="All pages with tag {{$t}}">{{$t}}</a>
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+</div>

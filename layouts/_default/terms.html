@@ -1,19 +1,12 @@
 {{ define "main" }}
-
-<h1>{{ .Title }}</h1>
-
-{{ $baseUrl := .Site.BaseURL }}
-{{ $plural  := .Data.Plural }}
-
-{{ range $key, $value  := .Data.Terms }}
-<a href="{{ $baseUrl  }}/{{ $plural }}/{{ $key}}">{{ $key }}</a>
-{{ end }}
+<div class="container">
+<h1 class="title is-1">{{ .Title }}</h1>
 
 <ul>
-    {{ range .Data.Taxonomies.tags }}
-    yyy
-    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+    {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><sup>{{$cnt}}</sup></li>
     {{ end }}
 </ul>
 
+</div>
 {{ end }}

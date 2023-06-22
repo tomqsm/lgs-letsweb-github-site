@@ -1,14 +1,10 @@
 <nav class="navbar is-dark">
     <div class="container">
         <div class="navbar-brand">
-            {{- range $.Site.Data.navbar.content -}}
-            {{ $segments := split $.RelPermalink "/"}}
-            {{ $basePath := "/" }}
-            {{ $length := len $segments }}
-            {{ if and $segments (gt $length 2) }}
-            {{ $basePath = (print "/" (index $segments 1) "/") }}
-            {{ end }}
-            <a class="navbar-item{{ if eq $basePath .url }} is-active{{ end }}" href="{{ .url }}">{{ .section | title }}</a>
+            {{- $page := . }}
+            {{- $mm := .Site.Menus.main -}}
+            {{- range .Site.Menus.main -}}
+                <a class="navbar-item{{ if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} is-active {{- end -}}" href="{{ .URL | relURL}}">{{ .Name }}</a>
             {{- end -}}
         </div>
     </div>

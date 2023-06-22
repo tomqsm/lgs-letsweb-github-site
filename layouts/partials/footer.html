@@ -1,7 +1,7 @@
-<footer class="footer has-text-centered">letsweb.biz 2023&nbsp
+<footer class="footer has-text-centered">2023&nbsp
     {{- $joinedLinks := slice -}}
-    {{- range $.Site.Data.navbar.content -}}
-        {{- $joinedLinks = $joinedLinks | append (printf `<a href="%s">%s</a>` .url (.section | title)) -}}
+    {{- range .Site.Menus.main -}}
+        {{- $joinedLinks = $joinedLinks | append (printf `<a href="%s">%s</a>` .URL (.Title)) -}}
     {{- end -}}
     {{- delimit $joinedLinks  " | " -}}
 </footer>
