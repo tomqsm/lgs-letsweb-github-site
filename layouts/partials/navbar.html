@@ -1,6 +1,11 @@
 <nav class="navbar is-dark">
     <div class="container">
         <div class="navbar-brand">
+            <a class="navbar-item" href="{{ relURL ""}}">
+                <img src="{{ relURL "images/logo.png" }}" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar-brand">
             {{- $page := . }}
             {{- $mm := .Site.Menus.main -}}
             {{- range .Site.Menus.main -}}
