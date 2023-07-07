@@ -6,4 +6,4 @@ tags: [portfolio, mobica]
 ---
 ### Mobica
 
-This is **portfolio** text, and this is *emphasized* text.
+This is **mobica** text, and this is *emphasized* text.

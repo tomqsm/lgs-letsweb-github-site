@@ -6,4 +6,4 @@ tags: [portfolio]
 ---
 ### Softfin
 
-This is **portfolio** text, and this is *emphasized* text.
+This is **softfin** text, and this is *emphasized* text.

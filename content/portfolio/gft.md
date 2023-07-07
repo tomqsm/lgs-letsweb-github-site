@@ -12,4 +12,4 @@ menu:
 # 2021/08 - 2022/08
 
 Dwa projekty bankowe.
-This is **portfolio** text, and this is *emphasized* text.
+This is **gft** text, and this is *emphasized* text.
