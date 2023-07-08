@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="title is-1">{{ .Title }}</h1>
+  <div class="columns">
+    <div class="column is-flex is-flex-direction-column">
+      <p style="line-height: 2;">{{ .Content }}</p>
+    </div>
+    <div class="column">
+      {{ with .Resources.GetMatch "*logo.png" }}
+      <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

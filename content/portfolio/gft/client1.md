@@ -1,15 +1,11 @@
 ---
-title: "GFT"
+title: "Citi 1"
 date: 2022-11-20T09:03:20-08:00
+start: 08/2021
+end: 09/2021
 draft: false
-tags: [portfolio]
-menu:
-  main:
-    parent: "Portfolio"
+tags: [klient]
 ---
-## GFT
-
-# 2021/08 - 2022/08
 
 Dwa projekty bankowe.
 This is **gft** text, and this is *emphasized* text.
