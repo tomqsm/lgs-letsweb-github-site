@@ -1,0 +1,11 @@
+- id: "home"
+  translation: "english"
+
+- id: "jumbotronMessage"
+  translation: "Helping startups to set a representation in the internet. Starting from the basics such as own domain based email, website, storage then own custom made web system."  
+
+- id: "continueReading"
+  translation: Continue reading
+
+- id: other_lang
+  translation: "Other languages:"

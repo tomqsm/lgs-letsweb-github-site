@@ -1,5 +1,7 @@
 baseURL = 'https://tomqsm.github.io/lgs-letsweb-github-site'
-languageCode = 'pl-pl'
+languageCode = 'pl'
+defaultContentLanguage = "pl"
+
 title = 'letsweb.biz'
 
 [imageProcessing]
@@ -8,3 +10,16 @@ title = 'letsweb.biz'
 
 [taxonomies]
     tag = "tags"
+
+[languages]
+    [languages.pl]
+        weight = 1
+        languageName = "Polish"
+        contentDir = "content/pl"
+        layoutDir = "layouts"
+
+    [languages.en]
+        weight = 2
+        languageName = "English"
+        contentDir = "content/en"
+        layoutDir = "layouts"

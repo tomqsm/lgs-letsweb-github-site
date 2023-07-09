@@ -9,11 +9,11 @@
         {{- if (eq .Name $.Site.Title) -}}
         <li><a href="{{ .Permalink }}">{{ $startText }}</a></li>
         {{- else -}}
-        <li><a href="{{ .Permalink }}">{{ .Name }}</a></li>
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
         {{- end -}}
         {{- end -}}
         <li class="is-active" aria-current="page">
-            <a href="{{ .Permalink }}">{{ .Name }}</a>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         {{- end }}
     </ul>
