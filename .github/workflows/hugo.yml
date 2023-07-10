@@ -49,7 +49,7 @@ jobs:
       - name: Print baseURL for Hugo
         run: |
           echo \
-            "besepath will be set to: Current Repository: ${{ steps.pages.outputs.base_url }}"  
+            "besepath will be set to: Current Repository: ${{ steps.pages.outputs.base_url }}"
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -58,6 +58,8 @@ jobs:
         run: |
           hugo \
             --minify
+      - name: Run pagefind
+        run: npx pagefind --source public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
