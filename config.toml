@@ -16,10 +16,8 @@ title = 'letsweb.biz'
         weight = 1
         languageName = "Polish"
         contentDir = "content/pl"
-        layoutDir = "layouts"
 
     [languages.en]
         weight = 2
         languageName = "English"
         contentDir = "content/en"
-        layoutDir = "layouts"

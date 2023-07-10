@@ -3,6 +3,9 @@ title: "GFT"
 start: 2019-08-01
 end: 2021-08-01
 website: https://www.gft.com
+layout: gft-list
 ---
 
-GFT is a digital transformation pioneer that develops sustainable solutions based on new technologies including artificial intelligence and blockchain/DLT. The company’s strengths include deep technical expertise, strong partnerships and comprehensive market insights. GFT experts create and implement scalable software applications that make access to innovative business models safe and easy. With locations in more than 15 markets around the globe, GFT ensures proximity to its clients. The company draws on over 35 years of experience and a team of over 10,000 determined experts.
+GFT to pionier transformacji cyfrowej, dostawca stabilnych rozwiązań opartych na nowych technolgiach w tym sztucznej inteligencji i blockchain/DLT. Siłą firmy jest również pogłebiona ekspertyza techniczna, tworzenie mocnych zasad współpracy i znajomosć rynku. Inżynierowie GFT tworzą i wdrażają skalowalny software, który umożliwia zastosowania nowatorkich modelów biznesowych; bezpiecznych i prostych w zastosowaniu. Lokalizacje na ponad 15 rynkach swiata zapewnia GFT kolokowanie działalnoci z bazą kliencką. Firma korzysta z bogatego dowiadczenia ponad 35 lat dowiadczenia działalnoci i ponad 10 tysięcy specjalistów.
+
+Some other stuff.
