@@ -8,6 +8,6 @@ draft: false
 tags: [portfolio]
 ---
 
-Specjalizujemy się w rozwiązaniach informatycznych dla sektorów: bankowość, ubezpieczenia oraz medycyna. Nasze rozwiązania opieramy na innowacyjnych technologiach spełniających potrzeby Klientów. Jesteśmy szybko rozwijającym się uczestnikiem polskiego rynku teleinformatycznego. Naszym celem jest trafne adresowanie potrzeb naszych Klientów, by móc im dostarczać optymalnie dopasowane do ich wymagań, unikalne i konkurencyjne produkty.
+We specialize in IT solutions for the banking, insurance, and healthcare sectors. Our solutions are based on innovative technologies that meet the needs of our clients. We are a rapidly growing participant in the Polish teleinformatics market. Our goal is to accurately address the needs of our clients so that we can deliver products that are optimally tailored to their requirements, unique, and competitive.
 
-Zajmujemy się całym procesem, tj. projektowanie, dostawa oraz wdrożenie kompletnych rozwiązań informatycznych wspierających funkcjonowanie procesów biznesowych oraz szeroko rozumianą integrację systemów. Wspieramy również naszych Klientów doradztwem specjalistów w pracach projektowych. Realizujemy dostawę sprzętu komputerowego i urządzeń peryferyjnych, łącznie z zapewnieniem serwisu gwarancyjnego na terenie całej polski.
+We are engaged in the entire process, including designing, delivering, and implementing comprehensive IT solutions that support business processes and system integration. We also provide our clients with consultancy services from specialists in project work. We handle the delivery of computer hardware and peripheral devices, including providing warranty service throughout Poland.

@@ -3,10 +3,11 @@
     <h1 class="title">{{ .Title }}</h1>
     <h3 class="subtitle">
       <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
-      <span class="tag is-dark">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="tag is-dark">{{ dateFormat "2 Jan 2006" .Date }}</span>
       <span class="tag is-warning">{{ .WordCount }} Words</span>
     </h3>
-    <article class="content">
+    <article data-pagefind-body class="content">
+      <p style="line-height: 2;">
       {{- partial "headings-to-bulma.html" . -}}
     </article>
   </main>

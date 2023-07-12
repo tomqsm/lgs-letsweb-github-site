@@ -1,9 +1,10 @@
 ---
-title: "My First Post"
+title: "Pierwszy wpis"
 date: 2022-11-20T09:03:20-08:00
 draft: false
 tags: [jeden]
 ---
-### Introduction one
+### Pierwszy wpis
 
 This is **bold** text, and this is *emphasized* text.
+umbax

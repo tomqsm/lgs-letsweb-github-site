@@ -1,6 +1,5 @@
 ---
 title: "Portfolio"
-redirect_to: "/pl/"
 menu: 'main'
 weight: 3
 ---

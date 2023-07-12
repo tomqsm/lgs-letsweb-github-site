@@ -2,7 +2,7 @@
     <p class="title is-3"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
     <p class="subtitle has-text-grey is-6">{{ .Summary }}</p>
     <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
-    <span class="tag is-dark">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <span class="tag is-dark">{{ dateFormat "2 Jan 2006" .Date }}</span>
     <span class="tag is-warning">{{ .WordCount }} Words</span>
 
         {{ if .Params.tags }}

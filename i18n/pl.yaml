@@ -4,5 +4,8 @@
 - id: "continueReading"
   translation: "Czytaj dalej"
 
-- id: other_lang
-  translation: "Inne języki:"
+- id: "searchBlog"
+  translation: "Szukaj w blogu"
+
+- id: dateFormat
+  translation: "2 January 2006"
