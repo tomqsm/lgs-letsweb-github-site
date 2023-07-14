@@ -5,7 +5,8 @@ draft: false
 tags: [js]
 ---
 
-Some useful stuff for JS maneuverability
+Some useful stuff for JS maneuverability.
+<!--more-->
 
 {{< import path="posts/js/dom-ready.md" >}}
 {{< import path="posts/js/console-import.md" >}}

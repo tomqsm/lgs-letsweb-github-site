@@ -3,7 +3,7 @@
   <h1 class="title is-1">{{ .Title }}</h1>
   <div class="columns">
     <div class="column is-flex is-flex-direction-column">
-      <p style="line-height: 2;">{{ .Content }}</p>
+      <article class="content">{{- partial "headings-to-bulma.html" . -}}</article>
     </div>
     <div class="column">
       {{ with .Resources.GetMatch "*logo.png" }}

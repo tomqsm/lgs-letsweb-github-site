@@ -9,3 +9,9 @@
 
 - id: dateFormat
   translation: "2 January 2006"
+
+- id: version
+  translation: "version"
+
+- id: lastUpdate
+  translation: "last update"

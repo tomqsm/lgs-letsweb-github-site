@@ -1,7 +1,6 @@
 ---
 title: "Portfolio"
-redirect_to: "/pl/"
 menu: 'main'
 weight: 3
 ---
-As of February, tworzenie oprogramowania w oparciu o Java stało się moją specjalizacją. Pracowałem w wielu projektach współtworząc oprogramowanie systemów bankowych, nawigacji, integracji i synchronizacji współdziałania programów, zarządzania użytkownikami i kontentem różnych platform oraz środowisk iteratywnych wdrożeń. Poniżej przegląd tych projektów.
+Since February 2012, software development with Java stack has become my specialization. I have worked on numerous projects, contributing to the development of software for banking systems, navigation, program integration and synchronization, user and content management across various platforms, as well as iterative deployment environments. Below is an overview of these projects.

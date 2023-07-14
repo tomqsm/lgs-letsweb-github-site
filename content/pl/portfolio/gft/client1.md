@@ -1,6 +1,6 @@
 ---
 title: "Citi 1"
-date: 2022-11-20T09:03:20-08:00
+date: 2023-07-09 15:08:42 +0200 CEST
 start: 08/2021
 end: 09/2021
 draft: false
