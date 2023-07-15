@@ -1,5 +1,6 @@
 ---
 title: "ITmagination"
+date: 2023-07-09 15:08:42 +0200 CEST
 start: 2021-08-01
 end: 2023-07-01
 website: https://www.itmagination.com

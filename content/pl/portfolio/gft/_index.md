@@ -1,5 +1,6 @@
 ---
 title: "GFT"
+date: 2023-07-10 15:08:42 +0200 CEST
 start: 2019-08-01
 end: 2021-08-01
 website: https://www.gft.com

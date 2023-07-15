@@ -1,6 +1,6 @@
 ---
 title: "Softfin"
-date: 2022-11-20T09:03:20-08:00
+date: 2023-07-02 15:08:42 +0200 CEST
 start: 2017-07-01
 end: 2019-08-01
 website: http://www.softfin.pl
