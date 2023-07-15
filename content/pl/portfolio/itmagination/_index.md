@@ -4,6 +4,7 @@ date: 2023-07-09 15:08:42 +0200 CEST
 start: 2021-08-01
 end: 2023-07-01
 website: https://www.itmagination.com
+layout: project-list
 ---
 
 ITMAGINATION is a technology consulting firm focused on helping clients around the world to accelerate innovation through a large variety of digital services.

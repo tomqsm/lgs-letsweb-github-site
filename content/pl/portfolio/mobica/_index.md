@@ -4,6 +4,7 @@ date: 2023-07-05 15:08:42 +0200 CEST
 start: 2012-02-26
 end: 2017-07-01
 website: http://www.mobica.com
+layout: project-list
 ---
 
 Be extraordinary. Mobica is a global software services company, headquartered in Manchester UK with offices across Europe and the USA. We help businesses build the software that brings physical and digital experiences together, to take tomorrow’s customers on pioneering journeys.

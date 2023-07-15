@@ -1,8 +1,8 @@
 ---
 title: "Citi 1"
 date: 2022-11-20T09:03:20-08:00
-start: 08/2021
-end: 09/2021
+start: 2021-08-01
+end: 2021-09-01
 draft: false
 tags: [client]
 internaltype: test

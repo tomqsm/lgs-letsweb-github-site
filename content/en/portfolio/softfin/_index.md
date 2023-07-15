@@ -6,6 +6,7 @@ end: 2018-08-01
 website: http://www.softfin.pl
 draft: false
 tags: [portfolio]
+layout: project-list-en
 ---
 
 We specialize in IT solutions for the banking, insurance, and healthcare sectors. Our solutions are based on innovative technologies that meet the needs of our clients. We are a rapidly growing participant in the Polish teleinformatics market. Our goal is to accurately address the needs of our clients so that we can deliver products that are optimally tailored to their requirements, unique, and competitive.

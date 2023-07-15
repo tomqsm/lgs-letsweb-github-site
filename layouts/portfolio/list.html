@@ -4,7 +4,7 @@
     <h2 class="title is-2">Intro</h2>
     <div class="columns">
         <div class="column is-flex is-flex-direction-column">
-            <p style="line-height: 2;">{{ .Content }}</p>
+            <p class="content">{{ .Content }}</p>
             <a href="{{ .Params.Website }}" target="_blank">{{ .Params.Website }}</a>
         </div>
         <div class="column">
@@ -13,9 +13,10 @@
             {{ end }}
         </div>
     </div>
-    <h2 class="title is-2">Projekty</h2>
+    <h2 class="title is-2">{{ T "portfolioProjects" | title}}</h2>
     <ul>
-    {{range .Pages}}
+        {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
+        {{ range $index, $page := $sortedPages }}
     <li class="custom-gap">
         {{ .Render "summary" }}
     </li>
