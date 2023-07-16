@@ -1,6 +1,8 @@
-{{define "main"}}
-<div class="container">
-    <h1 class="title">{{.Title}}</h1>
-    {{ .Content }}
+{{ define "main" }}
+<div class="container" layout="_default/list.html">
+    <h1 class="title is-1">{{ .Title }}</h1>
+    {{ range .Pages.ByPublishDate.Reverse }}
+    {{ .Render "summary" }}
+    {{- end -}}
 </div>
-{{end}}
+{{- end -}}
