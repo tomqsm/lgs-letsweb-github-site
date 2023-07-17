@@ -12,5 +12,10 @@
                 <a class="navbar-item{{ if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} is-active {{- end -}}" href="{{ .URL | relURL}}">{{ .Name }}</a>
             {{- end -}}
         </div>
+    <div class="navbar-end">
+            {{ range .Translations }}
+                <a class="navbar-item" href="{{ .Permalink }}"> {{ .Lang | upper}}</a>
+            {{ end }}
+    </div>
     </div>
 </nav>
