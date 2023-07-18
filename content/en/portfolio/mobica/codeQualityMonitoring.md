@@ -2,7 +2,7 @@
 title: "Code quality monitoring in Jenkins"
 date: 2013-07-01
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

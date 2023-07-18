@@ -1,5 +1,5 @@
 <a class="box" href="{{ .Permalink }}" layout="portfolio/summary.html">
-  <h4 class="title is-4">{{ .Title | humanize }} {{ if isset .Params "start" }}
+  <h4 class="title is-4">{{ .Title | title }} {{ if isset .Params "start" }}
     <span class="tag is-light">{{ .Params.start | dateFormat "2006/01/02" }}</span>
     {{ end }}
     {{ if isset .Params "end" }} -

@@ -1,11 +1,10 @@
 ---
-title: "Citi 2"
+title: "Web application for customer profiling"
 date: 2022-11-20T09:03:20-08:00
 start: 2021-08-01
 end: 2021-09-01
 draft: false
-tags: [projekt]
-internaltype: test
+tags: [project]
 ---
 Web application to support a bank relationship manager to characterise a client and discuss customised products.
 

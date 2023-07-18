@@ -2,7 +2,7 @@
 title: "Web Portal"
 date: 2015-05-01
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

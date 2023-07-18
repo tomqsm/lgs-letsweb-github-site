@@ -2,7 +2,7 @@
 title: "Integration Test framework"
 date: 2013-05-01
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

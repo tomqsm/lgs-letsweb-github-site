@@ -2,7 +2,7 @@
 title: "XML Poster"
 date: 2013-04-01
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

@@ -2,7 +2,7 @@
 title: "Website backend with JSF"
 date: 2011-11-20T09:03:20-08:00
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

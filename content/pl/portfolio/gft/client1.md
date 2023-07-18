@@ -1,11 +1,10 @@
 ---
-title: "Citi 1"
+title: "Maintainance and reduction of technical debt"
 date: 2022-11-20T09:03:20-08:00
 start: 2021-08-01
 end: 2021-09-01
 draft: false
-tags: [client]
-internaltype: test
+tags: [projekt]
 ---
 
 Range of tasks aimed at improvement of configuration and security of a suite of microservices. Configurations of 30 + microservices were file based and needed to be relocated to the database and then integrated in the Spring Boot lifecycle from a config server.  Security-wise, client began migrating to CyberArk and the sensitive data, used by the microservices from their configuration files, first needed to be enrolled in CyberArk. Task fulfilled by meeting security requirements set by liaising with appropriate teams. Then the microservices needed enablement to the configuration flow by retrieval of sensitive data from CyberArk instead of config server.

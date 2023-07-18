@@ -2,7 +2,7 @@
 title: "Paramount"
 date: 2022-11-20T09:03:20-08:00
 draft: false
-tags: [klient]
+tags: [projekt]
 ---
 Streaming platform backend handling user registration, user account management, payments, content engagement. Project consisted of initially four developers and a scrum master. With me another two developers joined and a product owner. Later on another three developers joined. The American version of the platform had a dedicated team of developers in the USA. The work was remote 100% with quarterly meetings in Warsaw.
 

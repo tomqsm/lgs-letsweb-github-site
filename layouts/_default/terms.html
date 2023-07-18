@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container">
-<h1 class="title is-1">{{ .Title | humanize }}</h1>
+<h1 class="title is-1">{{ .Title | title }}</h1>
 <ul>
     {{range $name, $taxonomy := .Site.Taxonomies.tags}} {{ $cnt := .Count }}
     <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><sup>{{$cnt}}</sup></li>

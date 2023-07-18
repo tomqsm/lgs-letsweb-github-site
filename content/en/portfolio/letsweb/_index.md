@@ -6,4 +6,4 @@ website: https://www.letsweb.biz
 layout: project-list-en
 ---
 
-Moje przedsięwzięcie
+In development

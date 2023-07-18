@@ -2,7 +2,7 @@
 title: "A test harness for Set Top Boxes UI"
 date: 2012-10-20
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 

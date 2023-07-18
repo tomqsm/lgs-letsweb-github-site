@@ -2,7 +2,7 @@
 title: "Liquibasing SQL scripts"
 date: 2013-08-01
 draft: false
-tags: [projekt]
+tags: [project]
 layout: project-single
 ---
 
