@@ -1,23 +1,26 @@
-- id: "jumbotronMessage"
-  translation: "Helping startups to set a representation in the internet. Starting from the basics such as own domain based email, website, storage then own custom made web system."  
+jumbotronMessage: "Helping startups to set a representation in the internet. Starting from the basics such as own domain based email, website, storage then own custom made web system."
 
-- id: "continueReading"
-  translation: Continue reading
+continueReading: "Continue reading"
 
-- id: "searchBlog"
-  translation: "Search blog content"
+searchBlog: "Search blog content"
 
-- id: dateFormat
-  translation: "2 January 2006"
+dateFormat: "2 January 2006"
 
-- id: version
-  translation: "version"
+version: "version"
 
-- id: lastUpdate
-  translation: "last update"
+lastUpdate: "last update"
 
-- id: portfolioProjects
-  translation: clients
+portfolioProjects: "clients"
 
-- id: searchNotFound
-  translation: Couldn't find
+searchNotFound: "Couldn't find"
+progTitle: Web
+progSubtitle: Programmed websites
+progText: Websites offering user interaction through authentication (login) and authorization, such as online shops, data collection from registered users.
+  Authentication allows for the identification and verification of users' identities to grant them specific access to system resources or functions.
+  Authorization relates to controlling access to specific resources or functions after user authentication.
+itSupport: IT support for firms and individuals
+itSupportSubtitle: Internet domain, website, e-mail, user management
+itSupportText: Starting a business, it is worth anchoring it in the online world through a well-chosen domain, a website address associated with the name of the profitable activity.
+
+makeWebsiteImgAlt: Figure for a making of a web service.
+itSupportImgAlt: Figure for a IT support for a firm.

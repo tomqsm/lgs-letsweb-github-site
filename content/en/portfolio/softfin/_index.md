@@ -5,7 +5,7 @@ start: 2017-07-01
 end: 2018-08-01
 website: http://www.softfin.pl
 draft: false
-tags: [portfolio]
+tags: [client]
 layout: project-list-en
 ---
 

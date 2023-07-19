@@ -1,23 +1,26 @@
-- id: "jumbotronMessage"
-  translation: "Obsługa startup'ów w wyjściu na świat usług internetowych: email oparty na firmowej domenie, strona internetowa, dysk chmurowy czy skrojona na indywidualne potrzeby applikacja webowa, programowanie." 
+jumbotronMessage: "Obsługa startup'ów w wyjściu na świat usług internetowych: email oparty na firmowej domenie, strona internetowa, dysk chmurowy czy skrojona na indywidualne potrzeby aplikacja webowa, programowanie."
 
-- id: "continueReading"
-  translation: "Czytaj dalej"
+continueReading: "Czytaj dalej"
 
-- id: "searchBlog"
-  translation: "Szukaj w blogu"
+searchBlog: "Szukaj w blogu"
 
-- id: dateFormat
-  translation: "2 January 2006"
+dateFormat: "2 January 2006"
 
-- id: version
-  translation: "wersja"
+version: "wersja"
 
-- id: lastUpdate
-  translation: "ostatnia aktualizacja"
+lastUpdate: "ostatnia aktualizacja"
 
-- id: portfolioProjects
-  translation: klienci
+portfolioProjects: "klienci"
 
-- id: searchNotFound
-  translation: "Nie znaleziono "
+searchNotFound: "Nie znaleziono "
+progTitle: Web
+progSubtitle: Oprogramowane strony internetowe
+progText: Strony internetowe oferujące interakcję z uźytkownikiem poprzez autentykację (zalogowanie) i autoryzację np sklep internetowy, zbieranie danych od zarejestrowanych użytkowników.
+  Autentykacja umożliwia identyfikację i weryfikację tożsamości użytkowników w celu udostępnienia im określonego dostępu do zasobów lub funkcji systemu.
+  Autoryzacja dotyczy kontroli dostępu do określonych zasobów lub funkcji po uwierzytelnieniu użytkownika.
+itSupport: Wsparcie informatyczne firm
+itSupportSubtitle: Domena, strona www, e-mail, zarządzanie użytkownikami
+itSupportText: Rozpoczynając działalność gospodarczą warto ją zakotwiczyć w świecie on-line poprzez dobraną domenę, adres www wiążący z nazwą aktywności dochodowej.
+
+makeWebsiteImgAlt: Obrazek ilustrujący tworzenie stron internetowych.
+itSupportImgAlt: Ilustracja wsparcia informatycznego firmy.

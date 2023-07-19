@@ -2,7 +2,7 @@
 title: "Letsweb.biz Website"
 date: 2022-11-20T09:03:20-08:00
 draft: false
-tags: [strona, projekt]
+tags: [projekt]
 ---
 
 Budowa tejże strony internetowej, poprzez którą z jednej strony chciałbym dzielić się zebranym doświadczeniem i mieć miejsce notowania użytecznych wskazówek a z drugiej przy jej pomocy przeprowadzić analizę wykonalności następujących celów.
