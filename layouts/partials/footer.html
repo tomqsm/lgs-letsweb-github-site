@@ -4,7 +4,9 @@
         {{- $joinedLinks = $joinedLinks | append (printf `<a href="%s">%s</a>` .URL (.Title)) -}}
     {{- end -}}
     {{- delimit $joinedLinks  " | " -}}
-    {{- if .IsHome }}
-    &nbsp; {{ T "version" }}: {{ .GitInfo.AbbreviatedHash }} {{ T "lastUpdate" }}: {{  dateFormat "2006-01-02" .GitInfo.AuthorDate }}
-    {{- end -}}
 </footer>
+<div class="has-text-right">
+{{- if .IsHome }}
+&nbsp;<span class=" is-size-7">{{ T "version" }}: {{ .GitInfo.AbbreviatedHash }} {{ T "lastUpdate" }}: {{  dateFormat "2006-01-02" .GitInfo.AuthorDate }}</span>
+{{- end -}}
+</div>
