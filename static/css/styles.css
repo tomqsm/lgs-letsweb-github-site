@@ -1,3 +1,6 @@
 .custom-gap {
     margin-bottom: 20px !important;
 }
+img[alt$=">"] {
+  float: right;
+}

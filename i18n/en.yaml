@@ -1,18 +1,17 @@
-jumbotronMessage: "Helping startups to set a representation in the internet. Starting from the basics such as own domain based email, website, storage then own custom made web system."
-
+readMore: Read more...
 continueReading: "Continue reading"
 
-searchBlog: "Search blog content"
-
 dateFormat: "2 January 2006"
-
 version: "version"
-
 lastUpdate: "last update"
-
 portfolioProjects: "clients"
 
+searchBlog: "Search blog content"
 searchNotFound: "Couldn't find"
+searchFoundOne: "[COUNT] result for [SEARCH_TERM]"
+searchManyResults: "[COUNT] results for [SEARCH_TERM]"
+searchClear: "Clear"
+
 progTitle: Web
 progSubtitle: Programmed websites
 progText: Websites offering user interaction through authentication (login) and authorization, such as online shops, data collection from registered users.

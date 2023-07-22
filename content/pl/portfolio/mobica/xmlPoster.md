@@ -1,6 +1,7 @@
 ---
 title: "XML Poster"
-date: 2013-04-01
+date: 2023-07-20 09:08:42 +0200 CEST
+start: 2013-04-01
 draft: false
 tags: [projekt]
 layout: project-single

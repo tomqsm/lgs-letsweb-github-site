@@ -1,6 +1,7 @@
 ---
-title: "Paramount"
+title: "Streaming platform"
 date: 2022-11-20T09:03:20-08:00
+start: 2021-08-25
 draft: false
 tags: [projekt]
 ---

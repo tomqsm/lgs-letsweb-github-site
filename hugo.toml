@@ -22,3 +22,9 @@ title = 'letsweb.biz'
         weight = 2
         languageName = "English"
         contentDir = "content/en"
+
+[markup]
+[markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = true
+    xhtml = false

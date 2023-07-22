@@ -1,8 +1,4 @@
-jumbotronMessage: "Obsługa startup'ów w wyjściu na świat usług internetowych: email oparty na firmowej domenie, strona internetowa, dysk chmurowy czy skrojona na indywidualne potrzeby aplikacja webowa, programowanie."
-
-continueReading: "Czytaj dalej"
-
-searchBlog: "Szukaj w blogu"
+readMore: "Czytaj dalej..."
 
 dateFormat: "2 January 2006"
 
@@ -12,7 +8,12 @@ lastUpdate: "ostatnia aktualizacja"
 
 portfolioProjects: "klienci"
 
+searchBlog: "Szukaj w blogu"
 searchNotFound: "Nie znaleziono "
+searchFoundOne: "[COUNT] wyszukanie [SEARCH_TERM]"
+searchManyResults: "[COUNT] wyszukań [SEARCH_TERM]"
+searchClear: "Usuń"
+
 progTitle: Web
 progSubtitle: Oprogramowane strony internetowe
 progText: Strony internetowe oferujące interakcję z uźytkownikiem poprzez autentykację (zalogowanie) i autoryzację np sklep internetowy, zbieranie danych od zarejestrowanych użytkowników.

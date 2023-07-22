@@ -15,12 +15,12 @@
     </div>
     <h2 class="title is-2">{{ T "portfolioProjects" | title}}</h2>
     <ul>
-        {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
+    {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
         {{ range $index, $page := $sortedPages }}
     <li class="custom-gap">
         {{ .Render "summary" }}
     </li>
     {{end}}
-</ul>
+    </ul>
 </div>
 {{end}}

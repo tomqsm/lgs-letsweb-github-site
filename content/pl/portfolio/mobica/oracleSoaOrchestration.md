@@ -1,6 +1,7 @@
 ---
 title: "Oracle’s SOA orchestration"
-date: 2014-03-01
+date: 2023-07-20 10:29:42 +0200 CEST
+start: 2014-03-01
 draft: false
 tags: [projekt]
 layout: project-single

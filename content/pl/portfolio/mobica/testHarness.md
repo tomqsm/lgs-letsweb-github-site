@@ -1,6 +1,7 @@
 ---
 title: "A test harness for Set Top Boxes UI"
-date: 2012-10-20
+date: 2023-07-09 09:41:42 +0200 CEST
+start: 2012-10-20
 draft: false
 tags: [projekt]
 layout: project-single

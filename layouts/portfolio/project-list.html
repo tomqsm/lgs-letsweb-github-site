@@ -18,7 +18,8 @@
   </div>
   <h2 class="title is-2">Projekty</h2>
   <ul>
-    {{range .Pages}}
+    {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
+    {{ range $index, $page := $sortedPages }}
     <li class="custom-gap">
       {{ .Render "summary" }}
     </li>
