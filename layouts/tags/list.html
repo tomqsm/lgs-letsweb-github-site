@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container" layout="tags/list.html">
+    <h1 class="title is-1">{{ .Title }}</h1>
+    <ul>
+        {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
+        {{ range $index, $page := $sortedPages }}
+        <li class="custom-gap">
+            {{ .Render "summary" }}
+        </li>
+        {{end}}
+    </ul>
+</div>
+{{- end -}}

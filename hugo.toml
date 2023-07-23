@@ -25,6 +25,4 @@ title = 'letsweb.biz'
 
 [markup]
 [markup.goldmark.renderer]
-    hardWraps = false
     unsafe = true
-    xhtml = false

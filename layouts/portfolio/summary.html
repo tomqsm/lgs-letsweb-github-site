@@ -2,9 +2,7 @@
   <h4 class="title is-4">{{ .Title | title }} {{ if isset .Params "start" }}
     <span class="tag is-light">{{ .Params.start | dateFormat "2006/01/02" }}</span>
     {{ end }}
-    {{ if isset .Params "end" }} -
-    <span class="tag is-light">{{ .Params.end | dateFormat "2006/01/02" }}</span>
-    {{ end }}
+    {{ if isset .Params "end" }} - <span class="tag is-light">{{ .Params.end | dateFormat "2006/01/02" }}</span> {{ end }}
   </h4>
   <h6 class="subtitle has-text-grey is-6">{{ .Summary }}</h6>
 </a>

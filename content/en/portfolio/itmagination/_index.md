@@ -1,7 +1,7 @@
 ---
 title: "ITmagination"
 start: 2021-08-01
-end: 2023-07-01
+end: 2023-06-01
 website: https://www.itmagination.com
 layout: project-list-en
 tags: [client]

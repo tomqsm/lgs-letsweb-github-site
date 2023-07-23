@@ -1,7 +1,8 @@
 {{- $imgURL := .Get "src" | relURL -}}
 {{- $altText := .Get "alt" -}}
 {{- $caption := .Get "caption" -}}
-<div style="float:right;margin:0 10px 10px 0">
+{{- $positioned := .Get "positioned" -}}
+<div style="float:{{ with $positioned }} {{ $positioned }} {{ else }} {{ "right" }} {{ end }};margin:0 10px 10px 0">
     <img src="{{ $imgURL }}" alt="{{ $altText }}">
     <figcaption class="has-text-centered">{{ $caption }}</figcaption>
 </div>
