@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="container" layout="tags/list.html">
+<div class="container" layout="tags/projekt/list.html">
     <h1 class="title is-1">{{ .Title }}</h1>
     <ul>
         {{ $sortedPages := sort (where .Pages "Params.start" "!=" nil) ".Params.start" "desc" }}
