@@ -1,6 +1,7 @@
 ---
 title: "Code quality monitoring in Jenkins"
-date: 2013-07-01
+date: 2023-07-20 09:29:10 +0200 CEST
+start: 2013-07-01
 draft: false
 tags: [project]
 layout: project-single

@@ -7,6 +7,7 @@ website: http://www.softfin.pl
 draft: false
 tags: [klient]
 layout: project-list
+intro: "Współpraca rozpoczęła się w efekcie kontaktu z aktywnością tej firmy na Linkedin. Wkrótce znalazłem się na międzynarodowym projekcie w roli programisty."
 ---
 
 Specjalizujemy się w rozwiązaniach informatycznych dla sektorów: bankowość, ubezpieczenia oraz medycyna. Nasze rozwiązania opieramy na innowacyjnych technologiach spełniających potrzeby Klientów. Jesteśmy szybko rozwijającym się uczestnikiem polskiego rynku teleinformatycznego. Naszym celem jest trafne adresowanie potrzeb naszych Klientów, by móc im dostarczać optymalnie dopasowane do ich wymagań, unikalne i konkurencyjne produkty.

@@ -3,9 +3,9 @@
     <p class="subtitle has-text-grey is-6">{{ .Summary | safeHTML  }}         {{ if .Truncated }}
         <a href="{{ .RelPermalink }}">{{T "readMore"}}</a>
     {{ end }}</p>
-    <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
     <span class="tag is-dark">{{ dateFormat "2 Jan 2006" .Date }}</span>
-    <span class="tag is-warning">{{ .WordCount }} Words</span>
+    <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
+    <span class="tag is-warning">{{ .WordCount }} {{ T "words" }}</span>
 
         {{ if .Params.tags }}
         <strong>Tags:</strong>

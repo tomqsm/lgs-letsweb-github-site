@@ -1,6 +1,7 @@
 ---
 title: "Liquibasing SQL scripts"
-date: 2013-08-01
+date: 2023-07-20 10:07:20 +0200 CEST
+start: 2013-08-01
 draft: false
 tags: [project]
 layout: project-single

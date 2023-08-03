@@ -5,6 +5,7 @@ end: 2017-07-01
 website: http://www.mobica.com
 layout: project-list-en
 tags: [client]
+intro: "After completing my computer science studies at Caledonian University in Glasgow, I established contact with the company Mobica, which was interested in cooperation. For over 5 years, I participated in various projects for many of their clients. These projects included banking, maps, and Set Top Boxes (STB) market. In July 2017, I transitioned to B2B and began collaborating with other companies of a similar profile through a sole proprietorship because at that time, Mobica preferred B2B contracts over employment agreements."
 ---
 
 Be extraordinary. Mobica is a global software services company, headquartered in Manchester UK with offices across Europe and the USA. We help businesses build the software that brings physical and digital experiences together, to take tomorrow’s customers on pioneering journeys.

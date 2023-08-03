@@ -6,6 +6,7 @@ end: 2023-06-01
 website: https://www.itmagination.com
 layout: project-list
 tags: [klient]
+intro: "Współpraca rozpoczęła się w efekcie kontaktu z aktywnością tej firmy na Linkedin. Wkrótce znalazłem się na międzynarodowym projekcie w roli programisty."
 ---
 
 ITMAGINATION is a technology consulting firm focused on helping clients around the world to accelerate innovation through a large variety of digital services.

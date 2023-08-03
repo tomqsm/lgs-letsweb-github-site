@@ -3,6 +3,10 @@ readMore: "Czytaj dalej..."
 dateFormat: "2 January 2006"
 
 version: "wersja"
+words: słów
+minutes: minut
+previousPost: poprzedni wpis
+nextPost: następny wpis
 
 lastUpdate: "ostatnia aktualizacja"
 

@@ -53,6 +53,8 @@ Then inside this template {{- .Content -}} will be md files in this directory an
 {{- .Content -}}
 {{- end -}}
 ```
+
+
 #### Add another content with a shortocode 
 
 Create a shortcode `import.html`

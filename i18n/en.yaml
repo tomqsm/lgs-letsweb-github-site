@@ -3,6 +3,10 @@ continueReading: "Continue reading"
 
 dateFormat: "2 January 2006"
 version: "version"
+words: words
+minutes: minutes
+previousPost: previous post
+nextPost: next post
 lastUpdate: "last update"
 portfolioProjects: "clients"
 

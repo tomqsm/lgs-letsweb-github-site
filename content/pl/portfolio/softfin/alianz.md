@@ -1,6 +1,8 @@
 ---
-title: "Alianz"
+title: "Synchronization of systems"
 date: 2022-11-20T09:03:20-08:00
+start: 2017-07-01
+end: 2019-08-01
 draft: false
 tags: [projekt]
 ---

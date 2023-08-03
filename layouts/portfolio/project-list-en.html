@@ -5,11 +5,11 @@
   <div class="columns">
     <div class="column is-flex is-flex-direction-column">
       <p style="line-height: 2;">
-        {{ range where .Site.Pages "Params.type" "intro" }}
-        {{ .Content }}
-        {{ end }}
-      </p>
-      <a href="{{ .Params.Website }}" target="_blank">{{ .Params.Website }}</a>
+        <!-- Render the extra content -->
+        {{ if .Params.intro }}
+        {{ .Params.intro | safeHTML }}
+        <a href="{{ .Params.Website }}" target="_blank">{{ .Params.Website }}</a>
+        {{ end }} </p>
     </div>
     <div class="column">
       {{ with .Resources.GetMatch "*logo.png" }}

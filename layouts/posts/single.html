@@ -2,9 +2,9 @@
   <main class="container mb-6">
     <h1 class="title">{{ .Title }}</h1>
     <h3 class="subtitle">
-      <span class="tag is-link">{{ .ReadingTime }} Minutes</span>
       <span class="tag is-dark">{{ dateFormat "2 Jan 2006" .Date }}</span>
-      <span class="tag is-warning">{{ .WordCount }} Words</span>
+      <span class="tag is-link">{{ .ReadingTime }} {{T "minutes"}}</span>
+      <span class="tag is-warning">{{ .WordCount }} {{T "words"}}</span>
     </h3>
     <article data-pagefind-body class="content">
       <p style="line-height: 2;">
@@ -14,10 +14,10 @@
   <div class="container content">
     <ul>
       {{ with .PrevInSection }}
-      <li>Previous Post: <a class="previous" href="{{ .Permalink }}">{{.Title}}</a></li>
+      <li>{{T "previousPost"}}: <a class="previous" href="{{ .Permalink }}">{{.Title}}</a></li>
       {{ end }}
       {{ with .NextInSection }}
-      <li>Next Post: <a class="next" href="{{ .Permalink }}">{{.Title}}</a></li>
+      <li>{{T "nextPost"}}: <a class="next" href="{{ .Permalink }}">{{.Title}}</a></li>
       {{ end }}
     </ul>
   </div>

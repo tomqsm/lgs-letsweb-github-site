@@ -1,0 +1,7 @@
+{{- $id := .Get "id" -}}
+{{- $title := .Get "title" -}}
+<div style="float:right;">
+    <iframe width="460" height="215" src="https://www.youtube.com/embed/{{$id}}" title="{{$title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <figcaption class="has-text-centered">{{ $title }}</figcaption>
+</div>
+

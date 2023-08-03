@@ -1,6 +1,7 @@
 ---
 title: "Front-end for a major Set Top Boxes (STB) market holder"
-date: 2012-10-01
+date: 2023-07-20 09:29:10 +0200 CEST
+start: 2012-10-01
 draft: false
 tags: [project]
 layout: project-single
