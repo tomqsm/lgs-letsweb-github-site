@@ -43,18 +43,6 @@ For branches, Hugo looks at the first level folders in `content` and calls it a 
 
 The default layout in `layouts/_default/list.html` applies to all branches similarly `layouts/_default/single.html` for all leaf content. Oftentimes `portfolio` layout would differ for `blog`. To specialize the template for a given branch e.g. `portfolio` create `layouts/portfolio/list.html` and inside dedicate a customized layout otherwise `layouts/_default/list.html` The list template assumes it would list single contents rather than another listing. Similarly for a leaf content, create `layouts/portfolio/single.html` and this will work for just this branch.
 
-#### Subdirectories are 
-You can also set the layout dedicated to branch subdirectories in the subdirectory _index.md front matter `layout: project-list`, create a template html inside `layouts/portfolio/gft-list.html` and it will be used for the subdirectory and you overcome Hugo feature of using layout per section only.
-
-Then inside this template {{- .Content -}} will be md files in this directory and you can add extra content by parameter type. When you set parameter type in a file front matter this file will be ignored from default listing and you have to include it manually by type:
- 
-```go
-{{- range where .Site.Pages "Params.type" "intro" -}}
-{{- .Content -}}
-{{- end -}}
-```
-
-
 #### Add another content with a shortocode 
 
 Create a shortcode `import.html`
