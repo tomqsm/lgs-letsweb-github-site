@@ -11,5 +11,6 @@ that's the title of this meeting.
 - Standalone Server, single instance (development and testing) 
 - Highly Available / Managed Domain / from a single control point (Domain Controller)
   - Domain Controller e.g. deploy app to domain controller and it will propagate the deployment across cluster hosts (server nodes). It is like an 'Admin Server'
-  - Host Controller 
+  - Host Controller (has a Domain Controller)
   - Server Node
+  - glencor
