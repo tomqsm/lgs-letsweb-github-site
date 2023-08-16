@@ -1,5 +1,5 @@
 ---
-title: "Porting web apps in on-premise JBoss platform."
+title: "Porting web apps in on-premise JBoss platform"
 date: 2022-11-20T09:03:20-08:00
 start: 2019-07-01
 end: 2019-08-01
