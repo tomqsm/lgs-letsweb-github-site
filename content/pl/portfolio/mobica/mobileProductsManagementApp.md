@@ -9,4 +9,4 @@ layout: project-single
 ---
 
 Spring Boot REST, Mongodb, Google Cloud Messaging, RabbitMq
-Development of back-end for a management platform supporting a release and subsequent control of IoT products by a major mobile provider.
+- Development of back-end for a management platform supporting a release and subsequent control of IoT products by a major mobile provider.

@@ -9,5 +9,5 @@ layout: project-single
 ---
 
 (Spring REST, Oracle)
-Development of new features to mobile payment platform in compliance with customer specifications.
-Dockerizing JBoss, LDAP to test Kerberos based authentication https://hub.docker.com/r/tumcyk/jboss-eap
+- Development of new features to mobile payment platform in compliance with customer specifications.
+- Dockerizing JBoss, LDAP to test Kerberos based authentication https://hub.docker.com/r/tumcyk/jboss-eap

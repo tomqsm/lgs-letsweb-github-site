@@ -8,5 +8,5 @@ layout: project-single
 ---
 
 05/2015 (Spring, Spring Boot, MVC, REST, Tomcat, Maven)
-Member of a team developing back-end for a web portal.
+- Member of a team developing back-end for a web portal.
 

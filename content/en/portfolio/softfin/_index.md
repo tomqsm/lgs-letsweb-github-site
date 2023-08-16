@@ -5,7 +5,7 @@ start: 2017-07-01
 end: 2019-08-01
 website: http://www.softfin.pl
 draft: false
-tags: [klient]
+tags: [client]
 layout: project-list-en
 intro: "With this company, I moved from Employment Contract to B2B (Business-to-Business Contract). The company leader, a tech lead from Allianz and myself, we all met in Allianz headquarters in Warsaw and after the interview we agreed on the project to undertake and other details."
 ---

@@ -5,6 +5,7 @@ start: 2023-07-01
 website: https://www.letsweb.biz
 layout: project-list
 tags: [klient]
+intro: "Jedno-osobowa działalnoć gospodarcza. Po ponad dzisięcioletnim zaangażowaniu w korporacyjne projekty tworzenia oprogramowania postanowiłem usystematyzować zebrane doswiadczenie."
 ---
 
 Jedno-osobowa działalnoć gospodarcza. Po ponad dzisięcioletnim zaangażowaniu w korporacyjne projekty tworzenia oprogramowania postanowiłem usystematyzować zebrane doswiadczenie.

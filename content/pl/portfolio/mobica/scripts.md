@@ -7,4 +7,5 @@ tags: [projekt]
 layout: project-single
 ---
 
-03-12/2013 (Java SE, JAX-RS, JAXB, XML, Postgres, Liquibase, SQL, Tomcat, Continuous Integration - Jenkins, DBF, Freemarker, Nexus, Scrum, Shapefile, TDD, Concurrency) Requirements capturing, analysis, design, implementation, testing and maintenance of toolkit applications required by the client. As a member of a Scrum team, I undertook encouragement to follow TDD practices which I have been adopting as own methodology.
+03-12/2013 (Java SE, JAX-RS, JAXB, XML, Postgres, Liquibase, SQL, Tomcat, Continuous Integration - Jenkins, DBF, Freemarker, Nexus, Scrum, Shapefile, TDD, Concurrency) 
+- Requirements capturing, analysis, design, implementation, testing and maintenance of toolkit applications required by the client. As a member of a Scrum team, I undertook encouragement to follow TDD practices which I have been adopting as own methodology.
