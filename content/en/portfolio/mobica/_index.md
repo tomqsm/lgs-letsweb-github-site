@@ -1,6 +1,6 @@
 ---
 title: "Mobica"
-start: 2012-02-26
+start: 2012-02-27
 end: 2017-07-01
 website: http://www.mobica.com
 layout: project-list-en
