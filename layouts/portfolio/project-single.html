@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container" layout="portfolio/project-single.html">
-  <h1 class="title is-1">{{ .Title | title }} <span class="is-size-5">{{ .Params.date | dateFormat "2006/01/02" }}</span></h1>
+  <h1 class="title is-1">{{ .Title | title }}</span></h1>
   <div class="columns">
     <div class="column is-flex is-flex-direction-column">
       <article class="content">{{- partial "headings-to-bulma.html" . -}}</article>
