@@ -47,7 +47,7 @@ jobs:
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
           service_account: ${{ secrets.SA_EMAIL }}
 
-      - name: Deploy to VM
+      - name: Exec a command in VM
         id: compute-ssh
         uses: 'google-github-actions/ssh-compute@v0'
         with:
@@ -56,7 +56,11 @@ jobs:
           ssh_private_key: '${{ secrets.HATJUMP }}'
           command: 'echo Hello world'
 
-      - name: test vm GCP deploy
+      - name: Print 'Exec a command in VM' output
         run: |-
           echo '${{ steps.compute-ssh.outputs.stdout }}'
           echo '${{ steps.compute-ssh.outputs.stderr }}'
+
+      - name: Copy directory to VM
+        run: |-
+          gcloud compute scp --zone europe-central2-a --recurse ~/wardrobe hatjump:~/narnia
