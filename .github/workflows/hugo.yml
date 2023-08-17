@@ -33,10 +33,31 @@ jobs:
     env:
       HUGO_VERSION: 0.114.1
     steps:
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Install Dart Sass Embedded
+        run: sudo snap install dart-sass-embedded
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
+
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --minify
+
+      - name: Run pagefind
+        run: npx pagefind --source public
 
       # Authenticating via Workload Identity Federation
       - name: Google Auth
@@ -62,5 +83,10 @@ jobs:
           echo '${{ steps.compute-ssh.outputs.stderr }}'
 
       - name: Copy directory to VM
-        run: |-
-          gcloud compute scp --zone europe-central2-a --recurse ~/wardrobe hatjump:~/narnia
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.HATJUMP_IP }}
+          username: ${{ secrets.HATJUMP_USERNAME }}
+          key: ${{ secrets.HATJUMP }}
+          source: "public/*"
+          target: "~"
