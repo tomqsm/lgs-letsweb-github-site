@@ -54,7 +54,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify
+            --minify --baseURL="http://localhost:3000"
 
       - name: Run pagefind
         run: npx pagefind --source public
@@ -66,7 +66,7 @@ jobs:
         with:
           create_credentials_file: 'true'
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-          service_account: ${{ secrets.SA_EMAIL }}
+          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
 
       - name: Exec a command in VM
         id: compute-ssh

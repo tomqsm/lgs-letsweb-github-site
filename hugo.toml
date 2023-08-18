@@ -1,4 +1,4 @@
-baseURL = 'https://tomqsm.github.io/lgs-letsweb-github-site'
+baseURL = '/'
 languageCode = 'pl'
 defaultContentLanguage = "pl"
 enableGitInfo = true
