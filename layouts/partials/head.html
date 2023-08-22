@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
     <link rel="icon" type="image/png" href="{{- relURL "favicon.png" -}}">
+    <script src="{{- relURL "js/burger.js" -}}"></script>
     {{- $title := print .Site.Title " | " .Title -}}
     {{- if .IsHome }}{{ $title = .Site.Title }}{{ end -}}
     <title>{{ $title }}</title>

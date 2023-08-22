@@ -1,21 +1,27 @@
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-    <div class="container">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+    </a>
+    <div class="navbar-menu" id="navMenu">
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ relURL ""}}">
-                <img src="{{ relURL "images/logo.png" }}" alt="Logo">
+            <img src="{{ relURL "images/logo.png" }}" alt="Logo">
             </a>
         </div>
-        <div class="navbar-brand">
+        <!-- navbar-start, navbar-end... -->
+        <div class="navbar-start">
             {{- $page := . }}
             {{- $mm := .Site.Menus.main -}}
             {{- range .Site.Menus.main -}}
-                <a class="navbar-item{{ if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} is-active {{- end -}}" href="{{ .URL | relURL}}">{{ .Name }}</a>
+            <a class="navbar-item{{ if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} is-active {{- end -}}" href="{{ .URL | relURL}}">{{ .Name }}</a>
             {{- end -}}
         </div>
-    <div class="navbar-end">
+        <div class="navbar-end">
             {{ range .Translations }}
-                <a class="navbar-item" href="{{ .Permalink }}"> {{ .Lang | upper}}</a>
+            <a class="navbar-item" href="{{ .Permalink }}"> {{ .Lang | upper}}</a>
             {{ end }}
-    </div>
+        </div>
     </div>
 </nav>
