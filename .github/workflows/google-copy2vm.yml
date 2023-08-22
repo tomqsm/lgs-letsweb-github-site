@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Build Hugo and copy to VM instance
 
 on:
   # Runs on pushes targeting the default branch
@@ -67,20 +67,6 @@ jobs:
           create_credentials_file: 'true'
           workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
           service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
-
-      - name: Exec a command in VM
-        id: compute-ssh
-        uses: 'google-github-actions/ssh-compute@v0'
-        with:
-          instance_name: 'hatjump'
-          zone: 'europe-central2-a'
-          ssh_private_key: '${{ secrets.HATJUMP }}'
-          command: 'echo Hello world'
-
-      - name: Print 'Exec a command in VM' output
-        run: |-
-          echo '${{ steps.compute-ssh.outputs.stdout }}'
-          echo '${{ steps.compute-ssh.outputs.stderr }}'
 
       - name: Copy directory to VM
         uses: appleboy/scp-action@v0.1.4
