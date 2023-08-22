@@ -54,7 +54,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify --baseURL="http://localhost:3000"
+            --minify --baseURL="/"
 
       - name: Run pagefind
         run: npx pagefind --source public
