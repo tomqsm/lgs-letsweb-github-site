@@ -1,0 +1,41 @@
+name: Set env variables in VM
+
+on:
+  push:
+    branches: [ "gcp" ]
+
+env:
+  PROJECT_ID: lwb-system
+  GAR_LOCATION: europe-central2
+  SERVICE: lgs-letsweb-github-site
+  REGION: europe-central2
+  ZONE: europe-central2-a
+
+jobs:
+  deploy:
+    # Add 'id-token' with the intended permissions for workload identity federation
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.114.1
+    steps:
+
+      - name: Google Auth
+        id: auth
+        uses: 'google-github-actions/auth@v0'
+        with:
+          token_format: 'access_token'
+          workload_identity_provider: '${{ secrets.WIF_PROVIDER }}'
+          service_account: '${{ secrets.WIF_SERVICE_ACCOUNT }}'
+
+      - name: Exec a command in VM
+        id: compute-ssh
+        uses: 'google-github-actions/ssh-compute@v0'
+        with:
+          instance_name: 'hatjump'
+          zone: 'europe-central2-a'
+          ssh_private_key: '${{ secrets.HATJUMP }}'
+          command: 'export ACCOUNT=${{ secrets.WIF_SERVICE_ACCOUNT }}'
