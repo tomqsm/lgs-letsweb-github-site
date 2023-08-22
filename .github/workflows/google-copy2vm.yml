@@ -59,15 +59,6 @@ jobs:
       - name: Run pagefind
         run: npx pagefind --source public
 
-      # Authenticating via Workload Identity Federation
-      - name: Google Auth
-        id: auth
-        uses: 'google-github-actions/auth@v1'
-        with:
-          create_credentials_file: 'true'
-          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
-
       - name: Copy directory to VM
         uses: appleboy/scp-action@v0.1.4
         with:

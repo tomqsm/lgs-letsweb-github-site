@@ -7,4 +7,4 @@ menu:
     weight: 4
 ---
 
-Tomasz Kuśmierczyk
+Tomasz Kuśmierczyk, Łódź
