@@ -11,7 +11,7 @@ tags: [projekt]
 Streaming platform backend handling user registration, user account management, payments, content engagement. Project consisted of initially four developers and a scrum master. With me another two developers joined and a product owner. Later on another three developers joined. The American version of the platform had a dedicated team of developers in the USA. The work was remote 100% with quarterly meetings in Warsaw.
 
 Responsibilities:
-- Analysis of existing components interoperability and bug fixing, refactoring and development of new features.
-- Encapsulating features in Java packages in view of creation microservices.
-- Improving code quality against quality assurance tools (Sonar, spotless) and test coverage.
-- Participation in daily scrum meetings and daily meetings with the US part of the project team.
+- Analysis of the existing components interoperability and bug fixing, refactoring and development of new features.
+- Encapsulating features in Java packages in view of migrating them from the monolith to microservices.
+- Improving a) code quality against quality assurance tools (Sonar, spotless) and b) test coverage. Reduction of the technical debt.
+- Participation in daily scrum meetings including daily meetings with the US part of the project team.
