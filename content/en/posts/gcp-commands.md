@@ -6,7 +6,7 @@ tags: [gcp]
 ---
 A couple of useful GCP gcloud commands.
 <!--more-->
-1) check you are signed in a project in GCP `gcloud auth login` - login to a project, this will open you a browser to authenticate through it redirect back to console.
+1) check you are signed in a project in GCP `gcloud auth login` - login to a project, this will open you a browser to authenticate through it redirect back to console after
 1) `gcloud compute ssh username@vmname --ssh-key-file=~/.ssh/google_vm`
 2) `gcloud iam service-accounts list` show service accounts in the current GCP project
 3) `export SERVICE_ACCOUNT=github-actions@your-system.iam.gserviceaccount.com`
