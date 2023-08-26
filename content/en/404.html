@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="/js/burger.js"></script>
+    <title>letsweb.biz | Not found</title>
+</head>
+<body>
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+<div id="search" class="container"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            translations: {
+                placeholder: "Search blog content",
+                zero_results: "Couldn\u0027t find\"[SEARCH_TERM]\"",
+                one_result: "[COUNT] result for [SEARCH_TERM]",
+                many_results: "[COUNT] results for [SEARCH_TERM]",
+                clear_search: "Clear"
+            }
+        });
+    });
+</script>
+<main>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img src="/images/logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="navbar-start"><a class="navbar-item" href="/en/">letsweb.biz</a><a class="navbar-item"
+                                                                                           href="/en/oferta/">Offer</a><a
+                    class="navbar-item" href="/en/posts/">Blog</a><a class="navbar-item"
+                                                                     href="/en/portfolio/">Portfolio</a><a
+                    class="navbar-item" href="/en/kontakt/">Contact</a><a class="navbar-item" href="/en/tags/">Tags</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container breadcrumb has-succeeds-separator" aria-label="breadcrumbs">
+        <ul>
+            <li><a href="/en/">letsweb.biz</a></li>
+            <li aria-current="page">&nbsp;Not found</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>404 - Not found</h2>
+        <p>Requested web page doesn't exist.</p>
+    </div>
+</main>
+<footer class="footer has-text-centered"><a href="/en/">letsweb.biz</a> | <a href="/en/oferta/">Offer</a> | <a
+        href="/en/posts/">Blog</a> | <a href="/en/portfolio/">Portfolio</a> | <a href="/en/kontakt/">Contact</a> | <a
+        href="/en/tags/">Tags</a></footer>
+<div class="has-text-right"></div>
+</body>
+</html>
