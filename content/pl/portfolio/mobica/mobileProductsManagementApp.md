@@ -4,7 +4,7 @@ date: 2023-08-16 11:24:10 +0200 CEST
 start: 2016-04-01
 end: 2016-08-01
 draft: false
-tags: [project]
+tags: [projekt]
 layout: project-single
 ---
 
