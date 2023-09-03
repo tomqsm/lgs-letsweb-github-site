@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="container" layout="portfolio/single.html">
   <h1 class="title is-1">{{ .Title }}</h1>
+
+  <span class="subtitle tag is-light">{{ T "lastedit" }} {{ dateFormat "2 Jan 2006" .Params.lastmod }}</span>
+
   <div class="columns">
     <div class="column is-flex is-flex-direction-column">
       <article class="content">{{- partial "headings-to-bulma.html" . -}}</article>

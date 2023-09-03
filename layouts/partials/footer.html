@@ -8,5 +8,5 @@
 <div class="has-text-right">
 {{- if .IsHome }}
 &nbsp;<span class=" is-size-7">{{ T "version" }}: {{ .GitInfo.AbbreviatedHash }} {{ T "lastUpdate" }}: {{  dateFormat "2006-01-02" .GitInfo.AuthorDate }}</span>
-{{- end -}}
+    {{- end -}}
 </div>

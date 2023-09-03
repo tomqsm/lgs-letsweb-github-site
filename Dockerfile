@@ -4,10 +4,9 @@ ARG HUGO_BASEURL=
 ENV HUGO_BASEURL=${HUGO_BASEURL}
 
 COPY . /src
+RUN git status
+RUN hugo --minify --gc --enableGitInfo
 
-RUN hugo --minify --gc
-
-WORKDIR /src
 RUN chmod +x pagefind-linux
 RUN ./pagefind-linux --source public --verbose
 
