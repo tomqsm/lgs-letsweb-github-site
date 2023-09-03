@@ -54,7 +54,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify --baseURL="/"
+            --minify --baseURL="/" --enableGitInfo
 
       - name: Run pagefind
         run: npx pagefind --source public
