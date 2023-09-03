@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hugo --baseURL "http://localhost:8000/lgs-letsweb-github-site"
+hugo --baseURL "http://localhost:3000"
 wait
 ./pagefind --source "public"
 

@@ -1,16 +1,19 @@
-# Use the official Golang base image
-FROM golang:latest as go-builder
+FROM hugomods/hugo:latest as hugo-builder
 
-# Set the working directory to /app
-WORKDIR /app
+ARG HUGO_BASEURL=
+ENV HUGO_BASEURL=${HUGO_BASEURL}
 
-# Copy your Go application source code into the container
-COPY . /app
+COPY . /src
 
-# Build the Go application
-RUN go build -o main .
+RUN hugo --minify --gc
 
-# Expose port 8080
+WORKDIR /src
+RUN chmod +x pagefind-linux
+RUN ./pagefind-linux --source public --verbose
+
+FROM --platform=linux/amd64 europe-central2-docker.pkg.dev/lwb-system/lgs-server/lgs-server:3-amd64
+
+COPY --from=hugo-builder /src/public /app/public
 EXPOSE 3000
 
 # Define the command to run the executable
