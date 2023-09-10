@@ -10,7 +10,7 @@ Budowa tejże strony internetowej, poprzez którą z jednej strony chciałbym dz
 
 1) Uniknąć korzystania z bazy danych dla potrzeb warstwy prezentacji.
 2) Polegać na serwowaniu statycznym i plików html generowanych w szybki i wydajny sposób w odpowiedzi na zmiany. By to osiągnąć, przeanalizować wydajność i mechanizm działania generatora stron statycznych Hugo. 
-3) Sprawdzić Hugo jako wsparcie do zarządzania kontentem strony do jakiego stopnia nadaje się na CMS (Content management System)
+3) Sprawdzić Hugo jako wsparcie do zarządzania kontentem strony do jakiego stopnia nadaje się na CMS (Content Management System)
 4) Przeanalizować usługę Cloudcannon jako CMS 
 5) Przenalizować metody wdrożeniowe bezpośrednio z repozytoriów Github przy pomocy Git Actions. 
 6) Zastosować wyszukiwanie pełnotekstowe wybranych obszarów strony bez współudziału częsci serwerowej i przygotować obsługę wielojęzykową.
